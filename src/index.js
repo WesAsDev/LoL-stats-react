@@ -36,7 +36,7 @@ app.get('/summoner/:sumName', async (req, res) => {
     .catch(e => {
       return res.status(e.response.status).json(e.response.data)
     })
-
+  console.log(summonerIdResponse)
   const { id, profileIconId, summonerLevel } = summonerIdResponse.data
   console.log(id)
 
