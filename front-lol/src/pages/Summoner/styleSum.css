@@ -1,0 +1,144 @@
+@media (max-width: 425px) {
+.partida{
+  display:flex;
+
+}
+
+
+.list-partidas-2{
+  display: flex;
+  width:100%;
+  height: 100%;
+  background-color: yellow;
+  flex-direction: column;
+  align-items: flex-start;
+  margin:0;
+  padding: 0;
+}
+
+.list-partidas-1{
+  height: 100%;
+  display: flex;
+  width:100%;
+  margin:0;
+  padding: 0;
+  background-color: green;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+  .list-1{
+    height: 100%;
+    display:flex;
+    list-style: none;
+    justify-content:end;
+    gap: 20px;
+    align-items:center;
+    width: 200px;
+  }
+
+  .list-1 img, .list-2 img{
+    height: 100%;
+   
+  }
+
+  .list-2{
+    height: 100%;
+    justify-content: start;
+    flex-direction:row-reverse;
+    gap: 20px;
+    display:flex;
+    list-style: none;
+    align-items:center;
+    width: 200px;
+  }
+
+ 
+
+.perdeu{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 147, 147);
+  position: absolute;
+  z-index: -1;
+}
+
+.ganhou{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(146, 217, 255);
+  position: absolute;
+  z-index: -1;
+}
+
+  .championImg{
+    max-width: 50px;
+    max-height: 50px;
+  }
+ 
+  .flex-container {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+
+    color: white;
+  }
+
+  /* Summoner info*/
+  .summonerInfo {
+    padding-top: 3.18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .summonerInfo .picture .image {
+    border-radius: 100%;
+
+    max-width: 14rem;
+    max-height: 14rem;
+
+    border: 5px white;
+  }
+
+  /* rank info*/
+
+  .rankInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* background */
+
+  .backgroundSum {
+    position: absolute;
+    background-color: #22142e;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .vector3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .vector1 {
+    position: absolute;
+  }
+
+  .evelynn {
+    position: absolute;
+    bottom: -50px;
+    border: 0;
+    z-index: -1;
+  }
+}
