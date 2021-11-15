@@ -89,13 +89,7 @@ export default function Summoner({ match, history }) {
                   {summoner.tier} {summoner.rank}
                 </h2>
               </div>
-              <h2
-                onClick={() =>
-                  history.push(`${summoner.summonerName}/${summoner.puuid}`)
-                }
-              >
-                History
-              </h2>
+              <button onClick={() => history.push(`./${summoner.summonerName}/history`)}>history</button>
               <div className="backgroundSum">
                 <img className="vector1" src={vector2}></img>
                 <img className="vector3" src={vector3}></img>
